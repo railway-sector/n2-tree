@@ -14,7 +14,6 @@ import {
   colorsConservation,
   cpField,
   primaryLabelColor,
-  treeConserveStatusLabels,
   treeConservationTypes,
   treeConservationStatusField,
   valueLabelColor,
@@ -60,7 +59,7 @@ const TreeConservationChart = () => {
     pieChartStatusData({
       qChart: queryc4.queryExpression(),
       layer: treeConservationLayer,
-      statusList: treeConserveStatusLabels,
+      statusList: treeConservationTypes,
       statusColor: colorsConservation,
       statusField: treeConservationStatusField,
       statisticType: "count",
