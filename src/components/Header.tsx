@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ContractPackageSegmentedList from "./ContractPackageSegmentedList";
-import { dateUpdate } from "../Query";
+import { dateUpdate } from "../query";
 import { primaryLabelColor } from "../uniqueValues";
 
 function Header() {

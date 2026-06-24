@@ -6,9 +6,9 @@ import "@arcgis/map-components/dist/components/arcgis-map";
 import "@arcgis/map-components/components/arcgis-map";
 import { useState, useEffect } from "react";
 import "../index.css";
-import TreeCuttingChart from "./TreeCuttingChart";
-import TreeCompensationChart from "./TreeCompensationChart";
-import TreeConservationChart from "./TreeConservationChart";
+import TreeCuttingChart from "./ChartTreeCutting";
+import TreeCompensationChart from "./ChartTreeCompensation";
+import TreeConservationChart from "./ChartTreeConservation";
 import {
   treeCompensationLayer,
   treeConservationLayer,
@@ -16,7 +16,7 @@ import {
 } from "../layers";
 import { primaryLabelColor } from "../uniqueValues";
 
-function MainChart() {
+function ChartMain() {
   const [chartTabName, setChartTabName] = useState<any>("TreeCutting");
 
   useEffect(() => {
@@ -106,4 +106,4 @@ function MainChart() {
   );
 }
 
-export default MainChart;
+export default ChartMain;
