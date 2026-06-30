@@ -17,9 +17,37 @@ import {
   treeCuttingStatusLabels,
   treeCuttingStatusValues,
 } from "./uniqueValues";
+import ChartPieSeries from "chart-pie-series";
+
+export const piechart_cut = new ChartPieSeries(
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+);
+
+export const piechart_comp = new ChartPieSeries(
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+);
+
+export const piechart_cons = new ChartPieSeries(
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+);
 
 export const queryc = new QueryExpressionLayers(
-  undefined,
+  [undefined],
   [cpField],
   undefined,
   undefined,
@@ -31,7 +59,7 @@ export const queryc = new QueryExpressionLayers(
 );
 
 export const queryc2 = new QueryExpressionLayers(
-  undefined,
+  [undefined],
   [cpField],
   undefined,
   undefined,
@@ -43,7 +71,7 @@ export const queryc2 = new QueryExpressionLayers(
 );
 
 export const queryc3 = new QueryExpressionLayers(
-  undefined,
+  [undefined],
   [cpField],
   undefined,
   undefined,
@@ -55,7 +83,7 @@ export const queryc3 = new QueryExpressionLayers(
 );
 
 export const queryc4 = new QueryExpressionLayers(
-  undefined,
+  [undefined],
   [cpField],
   undefined,
   undefined,
