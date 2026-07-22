@@ -21,16 +21,13 @@ function MapDisplay() {
 
   return (
     <arcgis-map
-      // item-id="5ba14f5a7db34710897da0ce2d46d55f"
       basemap="dark-gray-vector"
       zoom={10}
       center="120.5793, 15.18"
       onarcgisViewReadyChange={(event: any) => {
         setMapView(event.target.id);
       }}
-    >
-      {/* <arcgis-zoom position="top-right"></arcgis-zoom> */}
-    </arcgis-map>
+    ></arcgis-map>
   );
 }
 
