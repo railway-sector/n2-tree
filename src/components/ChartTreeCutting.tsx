@@ -170,11 +170,11 @@ const ChartTreeCutting = () => {
       seriesScale,
       innerValue: totalTrees,
       innerLabel: "TREES",
+      innerLabelColor: "#ffffff",
       innerLabelFontSize,
       innerValueFontSize,
       layer: treeCuttingLayer,
       statusArray: treec_status_q,
-      bkg_color_switch: false,
       seriesFillHash: undefined,
     });
     renderRef.current = renderer;

@@ -170,11 +170,11 @@ const ChartTreeConservation = () => {
       seriesScale,
       innerValue: totalTrees,
       innerLabel: "TREES",
+      innerLabelColor: "#ffffff",
       innerLabelFontSize,
       innerValueFontSize,
       layer: treeConservationLayer,
       statusArray: treen_status_q,
-      bkg_color_switch: false,
       seriesFillHash: undefined,
     });
     renderRef.current = renderer;

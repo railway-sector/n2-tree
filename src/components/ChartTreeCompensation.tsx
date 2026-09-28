@@ -170,11 +170,11 @@ const ChartTreeCompensation = () => {
       seriesScale,
       innerValue: totalTrees,
       innerLabel: "TREES",
+      innerLabelColor: "#ffffff",
       innerLabelFontSize,
       innerValueFontSize,
       layer: treeCompensationLayer,
       statusArray: treem_status_q,
-      bkg_color_switch: false,
       seriesFillHash: undefined,
     });
     renderRef.current = renderer;
