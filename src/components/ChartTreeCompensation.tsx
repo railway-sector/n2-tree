@@ -246,6 +246,7 @@ const ChartTreeCompensation = () => {
       <div
         id={chartID}
         style={{
+          width: "90%",
           height: "65vh",
           backgroundColor: "rgb(0,0,0,0)",
           color: "white",

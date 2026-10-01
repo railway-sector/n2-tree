@@ -245,6 +245,7 @@ const ChartTreeConservation = () => {
       <div
         id={chartID}
         style={{
+          width: "90%",
           height: "71vh",
           backgroundColor: "rgb(0,0,0,0)",
           color: "white",
